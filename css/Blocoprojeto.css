@@ -1,0 +1,53 @@
+
+
+
+.corpo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.corpo li a {
+    text-decoration: none;
+    color: var(--CorLetra);
+}
+
+.area1 {
+width: 40%;
+text-align: center;
+font-size: 26px;
+color: var(--CorLetra);
+}
+
+.area2 {
+    width: 40%;
+    text-align: center;
+    font-size: 26px;
+    color: var(--CorLetra);
+}
+
+.img1  {
+    background-image: url("../img/projetoimg.png");
+    width: 40%;
+    text-align: center;
+    height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.img2 {
+    background-image: url("../img/projetoimg2.png");
+    width: 40%;
+    text-align: center;
+    height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link1 .link2 {
+    width: 40%;
+    text-align: center;
+    font-size: 26px;
+}

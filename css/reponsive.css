@@ -1,0 +1,61 @@
+@media screen and (min-device-width: 700px) and (max-device-width: 900px) {
+  .infomacao{
+    font-size: 18px;
+}
+
+  .foto {
+    height: 200px;
+    width: 200px;
+}}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 699px) {
+  .cabechalho  {        
+    font-size: 20px; 
+}
+
+  .titulo {
+    font-size: 20px;
+}
+  
+  .infomacao {
+    flex-direction: column-reverse ;
+    font-size: 16px;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+  .foto {
+    width: 150px;
+    height: 150px;
+    position: static;
+    padding-right: auto;
+    padding-left: auto;
+}
+    
+  .cubomain {
+    padding: 10px;
+}
+      
+  .ImgBloco {
+    --s: 150px; /* the size */
+}
+
+  .Cubo {
+    min-height: 50vh;
+}
+  .area1 .area2 {
+    font-size: 16px;
+}
+
+  .img1 {
+    height: 200px;
+} 
+
+  .img2 {
+    height: 200px;
+}
+   
+  .logo {
+    width: 100px;
+}}

@@ -1,0 +1,76 @@
+:root {
+ --CorPrincipal: #100401;
+ --CorLetra: antiquewhite;
+ --corclaro: #401409;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    background-image: linear-gradient(#100401, #401409)
+}
+.cabechalho  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 30px; 
+    font-weight: bold;
+}
+ 
+.cabechalho li {
+    padding: 20px;
+    margin: 5vh;
+}
+.cabechalho li a {
+    text-decoration: none;  
+    color: var(--CorLetra);
+}
+
+.titulo {
+    display: block;
+    text-align: center;
+    font-size: 34px; 
+    margin: 20px;
+    color: var(--CorLetra);
+}
+
+.infomacao {
+    display: flex;
+    color: var(--CorLetra);
+    font-size: 26px; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px;
+    margin: 5svh;
+}
+
+.foto {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.Rede {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.outro {
+    padding-top: 40px;
+} 
+
+.email {
+    padding-top: 40px;
+    text-align: center;
+    color: var(--CorLetra);
+}

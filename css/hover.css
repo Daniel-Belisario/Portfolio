@@ -1,0 +1,18 @@
+.cabechalho li:hover {
+    transform: scale(1.3);
+    color: rgb(233, 197, 150);
+    text-decoration: underline;
+}
+
+.cabechalho li a:hover {
+    color: rgb(233, 197, 150);
+}
+
+.corpo li:hover {
+    transform: scale(1.4);
+    text-decoration: underline;
+}
+
+.Rede li a img:hover {
+    color: rgb(233, 197, 150);
+}
